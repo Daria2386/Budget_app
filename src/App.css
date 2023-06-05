@@ -1,0 +1,46 @@
+*{
+  background-color: beige;
+}
+.mainP{
+  height: 600px;
+  width: 600px;
+  background-color: beige;
+  margin-left: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.button{
+  height: 45px;
+  width: 100px;
+}
+.card {
+  padding: 2em;
+}
+.green{
+  color: green;
+}
+.red{
+  color: red;
+}
+.payment{
+  background-color: red;
+}
+.recieve{
+  background-color: green;
+}
+form{
+  display: flex;
+  gap: 25px;
+  /* place-items: center; */
+}
+.numbers{
+  
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
